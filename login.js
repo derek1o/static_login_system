@@ -5,7 +5,7 @@ document.getElementById("loginform").addEventListener("submit", function(event){
     let password = document.getElementById("password").value.trim();
     if(password === password1)
        // document.getElementById("user").innerHTML = "Login was Sucessful!"//#
-    window.location = "quiz.html"
+    window.location = "https://quiz-nine-peach.vercel.app/"
         else{
         document.getElementById("user").innerHTML = "Password Incorrect"
     
